@@ -157,10 +157,6 @@ html {
         flex-direction: column-reverse;
         gap: 1.5rem;
     }
-    .text {
-        text-align: center;
-    }
-
 }
 
 
