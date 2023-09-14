@@ -48,7 +48,6 @@ html {
 .slide-wrapper {
     display: flex;
     transition: all 0.8s ease-in-out;
-    /*aspect-ratio: 16 / 9;*/
 }
 .slide__img {
     display: flex;
@@ -152,4 +151,17 @@ html {
 .slider__input__wrapper:has(#cat5:checked) ~ .footer-nav .label:nth-child(5) div {
     opacity: 1;
 }
+@media screen and (max-width: 62.5rem){
+
+    .footer-nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+    }
+    .text {
+        text-align: center;
+    }
+}
+
 
