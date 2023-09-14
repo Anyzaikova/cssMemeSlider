@@ -19,8 +19,6 @@ html {
 }
 .container {
     padding: 1rem 2rem;
-    max-width: 250rem;
-
 }
 .header-title {
     display: grid;
@@ -151,7 +149,7 @@ html {
 .slider__input__wrapper:has(#cat5:checked) ~ .footer-nav .label:nth-child(5) div {
     opacity: 1;
 }
-@media screen and (max-width: 62.5rem){
+@media screen and (max-width: 61.5rem){
 
     .footer-nav {
         display: flex;
@@ -162,6 +160,9 @@ html {
     .text {
         text-align: center;
     }
+
 }
+
+
 
 
