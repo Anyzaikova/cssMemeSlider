@@ -1,13 +1,25 @@
 body {
     background-color: #b9bbd9;
+
 }
 p, html {
     margin: 0;
     padding: 0;
 }
+
+html {
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
 .container {
-    padding: 2rem;
-    max-width: 200em;
+    padding: 1rem 2rem;
+    max-width: 250rem;
 
 }
 .header-title {
@@ -36,13 +48,15 @@ p, html {
 .slide-wrapper {
     display: flex;
     transition: all 0.8s ease-in-out;
-    aspect-ratio: 16 / 9;
+    /*aspect-ratio: 16 / 9;*/
 }
 .slide__img {
     display: flex;
     aspect-ratio: 16 / 9;
     border-radius: 3rem;
     object-fit: cover;
+    width: 100%;
+    object-position: center;
 }
 .slider-nav {
     display: flex;
@@ -138,5 +152,4 @@ p, html {
 .slider__input__wrapper:has(#cat5:checked) ~ .footer-nav .label:nth-child(5) div {
     opacity: 1;
 }
-
 
