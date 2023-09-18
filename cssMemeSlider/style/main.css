@@ -6,6 +6,10 @@ p, html {
     margin: 0;
     padding: 0;
 }
+p {
+    font-size: 1.3rem;
+}
+
 
 html {
     overflow-y: hidden;
@@ -71,7 +75,7 @@ html {
     flex-shrink: 0;
     font-family: "Arial", sans-serif;
     font-weight: 400;
-    font-size: 1.6rem;
+
 }
 .nav-text {
     overflow: hidden;
